@@ -1,0 +1,155 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/*///// Bootstrap////*/
+
+
+
+
+/*///////body///////*/
+.grilla__contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 5rem;
+    margin: 5rem 0;
+  }
+  
+  .grilla__title {
+    color: #a239Ca;
+    padding: 3rem 0;
+  }
+  
+  .grilla {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 4rem;
+  }
+  
+  .grilla__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color:#0e0b16;
+    background-color: #e7dfdd;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+  }
+  
+  .grilla__item--imagen {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .grilla__item--texto {
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+
+.body__background{
+    display: flex;
+    height: 600px;
+    background-size: cover;
+    background-image:url("/Img/back-tecnology.jpg");
+    justify-content: center;
+
+
+.body__texto{
+    display: flex;
+    text-align: center;
+    }
+
+.body__titulo--morado{
+    position: absolute;
+    padding: 5%;
+    left: 10%;
+    color: #a239Ca;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+}
+
+.body__grid--left{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 40px;
+
+   
+}
+.body__grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    
+ }
+
+}
+  
+//////* Clientes*///////
+
+.body__grid3{
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+
+}
+
+
+/*///////Footer///////*/
+  
+.footer{
+     background-color: cornsilk;
+}
+   
+
+.footer__logo{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+
+}
+.footer__menu{
+    display: flex;
+    list-style: none;
+    margin-left: 90px;
+   
+
+     li {
+    border-radius: 3px;
+    margin: 0 5px;
+     }
+
+     a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: none;
+    color: #0e0b16;
+    }
+}
+
