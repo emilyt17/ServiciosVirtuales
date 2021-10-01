@@ -1,155 +1,147 @@
+/*/////Generales/////*/
 *, *:before, *:after {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
-/*///// Bootstrap////*/
-
-
-
-
-/*///////body///////*/
-.grilla__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0 5rem;
-    margin: 5rem 0;
-  }
-  
-  .grilla__title {
-    color: #a239Ca;
-    padding: 3rem 0;
-  }
-  
-  .grilla {
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 4rem;
-  }
-  
-  .grilla__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color:#0e0b16;
-    background-color: #e7dfdd;
-    padding: 1rem 2rem;
-    border-radius: 15px;
-  }
-  
-  .grilla__item--imagen {
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  
-  .grilla__item--texto {
-    text-transform: uppercase;
-    margin-top: 2rem;
-  }
-
-.body__background{
-    display: flex;
-    height: 600px;
-    background-size: cover;
-    background-image:url("/Img/back-tecnology.jpg");
-    justify-content: center;
-
-
-.body__texto{
-    display: flex;
-    text-align: center;
-    }
-
-.body__titulo--morado{
-    position: absolute;
-    padding: 5%;
-    left: 10%;
-    color: #a239Ca;
-    font-family: 'Roboto', sans-serif;
-    font-size: 100px;
+ 
+@font-face {
+  font-family: Titulo-SV;
+  src: url(../fuentes/Mostery.ttf);
 }
-
-.body__grid--left{
-   display: grid;
-   grid-template-columns: 50% 50%;
-   align-items: center;
-   justify-content: space-between;
-   font-size: 40px;
-
-   
+.image-tamano{
+  height: 450px;
 }
-.body__grid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    padding-left: 20px;
-    justify-content: space-between;
-    
- }
-
+.titulos-morado {
+  color: #a239Ca;
 }
-  
-//////* Clientes*///////
-
-.body__grid3{
-
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    align-items: center;
-    padding-left: 20px;
-    justify-content: space-between;
-
-}
-
-
 /*///////Footer///////*/
   
 .footer{
-     background-color: cornsilk;
+  background-color: cornsilk;
 }
-   
+
 
 .footer__logo{
-    display: flex;
-    justify-content: space-between;   
-    align-items: center;
+ display: flex;
+ justify-content: space-between;   
+ align-items: center;
 
 }
 .footer__menu{
-    display: flex;
-    list-style: none;
-    margin-left: 90px;
-   
+ display: flex;
+ list-style: none;
+ margin-left: 90px;
 
-     li {
-    border-radius: 3px;
-    margin: 0 5px;
-     }
 
-     a{
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    font-family: 'Noto Sans TC', sans-serif;
-    text-decoration: none;
-    color: #0e0b16;
-    }
+  li {
+ border-radius: 3px;
+ margin: 0 5px;
+  }
+
+  a{
+ display: block;
+ padding: 10px;
+ text-decoration: none;
+ font-family: 'Noto Sans TC', sans-serif;
+ text-decoration: none;
+ color: #0e0b16;
+ }
 }
 
+
+
+/*//////Under Constrction//*/
+.Background-Color-amarillo{
+  
+  background-color: #F4D74A;
+  padding: 6%;
+}
+
+/*///////Index///////*/
+  
+
+.body__background{
+    height: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image:url("/Img/back-tecnology.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.body__titulo--morado{
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    padding-top: 20rem;
+    color: #a239Ca;
+    font-family: Titulo-SV;
+    
+}
+
+
+///* Servicios *///
+.netw-back-black{
+  background-color: #0e0b16;
+}
+
+.monitoreo-galeria img {
+  width: 250px;
+  height: 250px
+
+}
+.titulo-partners{
+  font-size: 5rem;
+  color: #a239Ca;
+}
+
+.parrafo-partners{
+  font-size: 1.2rem;
+}
+
+.card-header-first{
+	margin-top:-40px;
+    height: 120px;
+	background: #E7dfdd; 
+	box-shadow:1px 5px 15px #a2a2a2;
+
+.card-section{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.card-section:hover{
+	box-shadow:1px 1px 20px #d2d2d2;
+}
+}
+
+/*///Partners////*/
+.Titulo-tamano{
+  font-size: 3rem;
+}
+
+.Back-Color {
+  background-color: #a2a2a2;
+}
+.Galeria-partners {
+
+    margin: 0%;
+
+    img {
+    width: 250px;
+    height: 200px;
+    border: 10px;
+        }
+
+    img:hover{
+      border: 5px solid #E7dfdd;
+
+    }
+  
+  }
+/*//////Proyectos///////*/
+.background-proyectos{
+  background-image: url(/Img/working-on-code.jpg);
+  height: 90vh;
+  background-size: cover;
+}
